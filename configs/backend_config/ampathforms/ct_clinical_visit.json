@@ -335,7 +335,7 @@
                     "conceptMappings": []
                   },
                   {
-                    "concept": "a307f884-9ee8-4d3f-b8f7-923870c053c0",
+                    "concept": "0c512334-9e40-4d74-b11d-2c2780f04a01",
                     "label": "Uniformed Forces",
                     "conceptMappings": []
                   },
@@ -1365,7 +1365,7 @@
                         "label": "Fever"
                       },
                       {
-                        "concept": "159581AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "concept": "139581AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                         "label": "GI upset"
                       },
                       {
@@ -1529,7 +1529,7 @@
                 "rendering": "textarea"
               },
               "hide": {
-                "hideWhenExpression": "'"
+                "hideWhenExpression": ""
               }
             }
           ]
@@ -1997,7 +1997,7 @@
               "type": "obs",
               "id": "yearsTaken",
               "questionOptions": {
-                "concept": "1546AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "concept": "166361AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "rendering": "number",
                 "min": "0",
                 "max": "500"
@@ -2164,7 +2164,7 @@
                 "concept": "162737AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "answers": [
                   {
-                    "concept": "1107AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "concept": "1115AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                     "label": "Normal"
                   },
                   {
@@ -4690,35 +4690,35 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "select",
-                "concept": "90c9e554-b959-48e6-90d5-8d595a074c86",
+                "concept": "1264AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "answers": [
                   {
-                    "concept": "69653fcf-37e4-4a61-96d6-58bbd079ad77",
+                    "concept": "3392d47c-eed4-4087-96d4-2f8f803fd445",
                     "label": "1 HP Isoniazide + Rifapentine prophylaxis",
                     "conceptMappings": []
                   },
                   {
-                    "concept": "4df2a7d8-eb98-4d15-8bed-1b408891ee75",
+                    "concept": "2e3bed01-c0a6-46e4-a032-33b4b5bda3eb",
                     "label": "3HP Rifapentine + Isoniazid",
                     "conceptMappings": []
                   },
                   {
-                    "concept": "bbdf46fb-f941-4075-a2ae-985163accce1",
+                    "concept": "1fd4b164-1374-4bd5-aadb-94d1d071a282",
                     "label": "3HR Isoniazid+Rifampicin prophylaxis",
                     "conceptMappings": []
                   },
                   {
-                    "concept": "65889206-ebc7-4aea-afd3-dc3641ba8cad",
+                    "concept": "c8e0b9b1-3d1b-4ec2-93ee-e2c836f66a9e",
                     "label": "4R Rifampicin Monotherapy prophylaxis",
                     "conceptMappings": []
                   },
                   {
-                    "concept": "107f0b45-869c-4ddb-b56b-13994a486523",
+                    "concept": "6ca58274-6b05-46b3-b3b7-0919947ffd4f",
                     "label": "6H Isoniazid prophylaxis",
                     "conceptMappings": []
                   },
                   {
-                    "concept": "a27faf7e-8be5-4c8b-84de-be6c0967acc6",
+                    "concept": "2e480c12-5764-4048-8ade-66bcf2387a4c",
                     "label": "9H Isoniazid prophylaxis",
                     "conceptMappings": []
                   }

@@ -631,14 +631,9 @@
                     "conceptMappings": []
                   },
                   {
-                    "concept": "b282bb08-62a7-42c2-9bea-8751c267d13e",
+                    "concept": "0c512334-9e40-4d74-b11d-2c2780f04a01",
                     "label": "Uniformed Forces",
-                    "conceptMappings": [
-                      {
-                        "type": "OHTSTemp",
-                        "value": "UniformedForces"
-                      }
-                    ]
+                    "conceptMappings": []
                   },
                   {
                     "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
@@ -738,177 +733,87 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "select",
-                "concept": "dfbe256e-30ba-4033-837a-2e8477f2e7cd",
+                "concept": "164432AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "answers": [
                   {
-                    "concept": "d8051638-0123-4322-a094-4a48adffdc37",
-                    "label": "d4T + 3TC + NVP",
-                    "conceptMappings": []
+                    "concept": "3bc3a355-71c7-4be2-8702-693919622f35",
+                    "label": "ABC + 3TC + DTG"
                   },
                   {
-                    "concept": "67701961-f6c1-4ebf-a7f5-c2c5d25021a0",
-                    "label": "TDF + FTC + EFV",
-                    "conceptMappings": []
+                    "concept": "162563AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "ABC + 3TC + EFV"
                   },
                   {
-                    "concept": "083d46c5-dea7-49de-abd5-e16f252255a7",
-                    "label": "TDF + FTC + DTG",
-                    "conceptMappings": []
+                    "concept": "162200AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "ABC + 3TC + LPV/r"
                   },
                   {
-                    "concept": "36685ad3-a223-4c3c-b6ee-d8358432a600",
-                    "label": "TDF + 3TC + NVP",
-                    "conceptMappings": []
+                    "concept": "162199AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "ABC + 3TC + NVP"
                   },
                   {
-                    "concept": "380e5e7c-7c2f-4ba8-a93c-90b1e638dc2c",
-                    "label": "TDF + 3TC + LPV/r",
-                    "conceptMappings": []
+                    "concept": "164511AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "AZT + 3TC + ATV/r"
                   },
                   {
-                    "concept": "5f123dc8-c697-47f6-bc67-007322a9bb48",
-                    "label": "TDF + 3TC + EFV",
-                    "conceptMappings": []
+                    "concept": "166087AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "AZT + 3TC + DTG"
                   },
                   {
-                    "concept": "5679c813-cfed-4fb2-b252-d6149297e013",
-                    "label": "TDF + 3TC + DTG + ETR + DRV + RTV",
-                    "conceptMappings": []
+                    "concept": "60124AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "AZT + 3TC + EFV"
                   },
                   {
-                    "concept": "907d304b-ebc4-4387-8af8-2d2c92f82910",
-                    "label": "TDF + 3TC + DTG + DRV + RTV",
-                    "conceptMappings": []
+                    "concept": "162561AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "AZT + 3TC + LPV/r"
                   },
                   {
-                    "concept": "5a4587e2-de9e-4b99-9ea0-00717fa5605a",
-                    "label": "TAF + 3TC + LPV/r",
-                    "conceptMappings": []
+                    "concept": "0f32b33b-a39d-4f85-aca4-b9daafbda72a",
+                    "label": "AZT + 3TC + NVP"
                   },
                   {
-                    "concept": "5f7da36e-1a83-4ede-ae6f-41aaa5304601",
-                    "label": "TAF + 3TC + DTG",
-                    "conceptMappings": []
+                    "concept": "167444AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "DRV/r + DTG + ABC + 3TC"
                   },
                   {
-                    "concept": "6b7cd8a1-77b3-4853-bbe7-ff6bf51c41c3",
-                    "label": "TAF + 3TC + DRV/r",
-                    "conceptMappings": []
+                    "concept": "167442AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "DRV/r + DTG + AZT + 3TC"
                   },
                   {
-                    "concept": "0fd8a042-81a3-4106-8470-63d29380d7d5",
-                    "label": "RAL + 3TC + DRV + RTV + TDF",
-                    "conceptMappings": []
+                    "concept": "166521AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "DRV/r + DTG + TDF + 3TC"
                   },
                   {
-                    "concept": "3ae355dd-fc83-43c6-9312-ebbb30b51bf7",
-                    "label": "RAL + 3TC + DRV + RTV + AZT",
-                    "conceptMappings": []
+                    "concept": "166685AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "DRV/r + RAL + AZT + 3TC"
                   },
                   {
-                    "concept": "1431d032-9eeb-46b3-84e5-79f0c19354d8",
-                    "label": "RAL + 3TC + DRV + RTV",
-                    "conceptMappings": []
+                    "concept": "166683AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "DRV/r + RAL + ABC + 3TC"
                   },
                   {
-                    "concept": "9e82e55d-dbbf-49a6-900c-d8ead9985b0a",
-                    "label": "ETV + 3TC + DRV + RTV",
-                    "conceptMappings": []
+                    "concept": "166522AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "DRV/r + RAL + TDF + 3TC"
                   },
                   {
-                    "concept": "e9540e20-1ba4-4573-b189-088f5fd9dc57",
-                    "label": "AZT + 3TC + RAL",
-                    "conceptMappings": []
+                    "concept": "164512AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "TDF + 3TC + ATV/r"
                   },
                   {
-                    "concept": "bafb40ca-b0c7-4366-bd8e-9eb923237c94",
-                    "label": "AZT + 3TC + NVP",
-                    "conceptMappings": []
+                    "concept": "165086AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "TDF + 3TC + DTG"
                   },
                   {
-                    "concept": "d2b1d784-a880-42a9-b0a6-19de2db7afd6",
-                    "label": "AZT + 3TC + LPV/r",
-                    "conceptMappings": []
+                    "concept": "164505AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "TDF + 3TC + EFV"
                   },
                   {
-                    "concept": "b1336ea0-3a87-4018-9fce-3a7a22d95d7d",
-                    "label": "AZT + 3TC + EFV",
-                    "conceptMappings": []
+                    "concept": "162201AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "TDF + 3TC + LPV/r"
                   },
                   {
-                    "concept": "f2247788-6d05-490d-ad04-64544c8020b7",
-                    "label": "AZT + 3TC + DTG",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "60bec021-c05c-4ae9-93fe-b798c0bf82d2",
-                    "label": "AZT + 3TC + DRV + RTV + RAL",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "62243dfe-6284-48a9-afcc-63149ac6d709",
-                    "label": "AZT + 3TC + ATV/r",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "dc25af21-7816-44d8-92d2-3332c7db113a",
-                    "label": "ABC + 3TC + RAL",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "98bec34c-608a-46ce-8f1a-3ee3b8b6f92b",
-                    "label": "ABC + 3TC + NVP",
-                    "conceptMappings": [
-                      {
-                        "type": "CIEL",
-                        "value": "162199"
-                      }
-                    ]
-                  },
-                  {
-                    "concept": "0da33711-7b3f-4997-bc9e-4a2445fbaf63",
-                    "label": "ABC + 3TC + LPV/r",
-                    "conceptMappings": [
-                      {
-                        "type": "CIEL",
-                        "value": "162200"
-                      }
-                    ]
-                  },
-                  {
-                    "concept": "70e9b78a-a6d8-49c2-8217-0ba57b05803a",
-                    "label": "ABC + 3TC + EFV",
-                    "conceptMappings": [
-                      {
-                        "type": "CIEL",
-                        "value": "162563"
-                      }
-                    ]
-                  },
-                  {
-                    "concept": "159db6bc-1303-4829-8fe4-32212751c934",
-                    "label": "ABC + 3TC + DTG",
-                    "conceptMappings": [
-                      {
-                        "type": "CIEL",
-                        "value": "165606"
-                      }
-                    ]
-                  },
-                  {
-                    "concept": "396d668b-b1e6-4997-b9b9-2d57f53c2321",
-                    "label": "ABC + 3TC + DRVr",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "5bb0348b-fc27-460e-b6cd-df7a4a253372",
-                    "label": "ABC + 3TC + DRV+RTV+RAL",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "f827ed18-f816-4cd0-b77c-28a0209c96c0",
-                    "label": "ABC + 3TC + ATVr",
-                    "conceptMappings": []
+                    "concept": "162565AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "TDF + 3TC + NVP"
                   }
                 ]
               },
@@ -1086,120 +991,25 @@
           "isExpanded": "true",
           "questions": [
             {
-              "label": "Use of Pre Exposure Prophylaxis (PrEP)",
+              "label": "Indication/intent of therapy",
               "type": "obs",
               "questionOptions": {
-                "rendering": "radio",
-                "concept": "166655AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "rendering": "checkbox",
+                "concept": "160846AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "answers": [
                   {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes",
-                    "conceptMappings": [
-                      {
-                        "type": "CIEL",
-                        "value": "1065"
-                      },
-                      {
-                        "type": "AMPATH",
-                        "value": "1065"
-                      },
-                      {
-                        "type": "PIH",
-                        "value": "1065"
-                      },
-                      {
-                        "type": "SNOMED CT",
-                        "value": "CT: 373066001"
-                      }
-                    ]
+                    "concept": "166655AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Pre Exposure Prophylaxis (PrEP)",
+                    "conceptMappings": []
                   },
                   {
-                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "No",
-                    "conceptMappings": [
-                      {
-                        "type": "AMPATH",
-                        "value": "1066"
-                      },
-                      {
-                        "type": "SNOMED CT",
-                        "value": "373067005"
-                      },
-                      {
-                        "type": "PIH",
-                        "value": "1067"
-                      }
-                    ]
+                    "concept": "b1939b4a-7f1a-4c16-bdaa-82ab7b24f47d",
+                    "label": "Prevention of Mother to Child Transmission (PMTCT)",
+                    "conceptMappings": []
                   },
                   {
-                    "concept": "1067AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Unknown",
-                    "conceptMappings": [
-                      {
-                        "type": "CIEL",
-                        "value": "1067"
-                      },
-                      {
-                        "type": "AMPATH",
-                        "value": "1067"
-                      },
-                      {
-                        "type": "SNOMED CT",
-                        "value": "CT: 261665006"
-                      },
-                      {
-                        "type": "PIH",
-                        "value": "1067"
-                      }
-                    ]
-                  }
-                ]
-              },
-              "behaviours": [
-                {
-                  "intent": "*",
-                  "required": "true",
-                  "unspecified": "true",
-                  "hide": {
-                    "hideWhenExpression": "false"
-                  }
-                }
-              ],
-              "id": "previousUseOfPrep"
-            },
-            {
-              "label": "Use of Post exposure prophylaxis (PEP)",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "radio",
-                "concept": "164845AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes",
-                    "conceptMappings": [
-                      {
-                        "type": "CIEL",
-                        "value": "1065"
-                      },
-                      {
-                        "type": "AMPATH",
-                        "value": "1065"
-                      },
-                      {
-                        "type": "PIH",
-                        "value": "1065"
-                      },
-                      {
-                        "type": "SNOMED CT",
-                        "value": "CT: 373066001"
-                      }
-                    ]
-                  },
-                  {
-                    "concept": "488b58ff-64f5-4f8a-8979-fa79940b1594",
-                    "label": "No",
+                    "concept": "1691AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Post-exposure prophylaxis (PEP)",
                     "conceptMappings": []
                   },
                   {
@@ -1236,77 +1046,7 @@
                   }
                 }
               ],
-              "id": "previousUseOfPep"
-            },
-            {
-              "label": "ART Use for Prevention of Mother to Child Transmission of HIV",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "radio",
-                "concept": "163532AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes",
-                    "conceptMappings": [
-                      {
-                        "type": "CIEL",
-                        "value": "1065"
-                      },
-                      {
-                        "type": "AMPATH",
-                        "value": "1065"
-                      },
-                      {
-                        "type": "PIH",
-                        "value": "1065"
-                      },
-                      {
-                        "type": "SNOMED CT",
-                        "value": "CT: 373066001"
-                      }
-                    ]
-                  },
-                  {
-                    "concept": "488b58ff-64f5-4f8a-8979-fa79940b1594",
-                    "label": "No",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "1067AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Unknown",
-                    "conceptMappings": [
-                      {
-                        "type": "CIEL",
-                        "value": "1067"
-                      },
-                      {
-                        "type": "AMPATH",
-                        "value": "1067"
-                      },
-                      {
-                        "type": "SNOMED CT",
-                        "value": "CT: 261665006"
-                      },
-                      {
-                        "type": "PIH",
-                        "value": "1067"
-                      }
-                    ]
-                  }
-                ]
-              },
-              "behaviours": [
-                {
-                  "intent": "*",
-                  "required": "true",
-                  "unspecified": "true",
-                  "hide": {
-                    "hideWhenExpression": "false"
-                  }
-                }
-              ],
-              "id": "previousUseOfArt"
+              "id": "indication"
             }
           ]
         },
@@ -1315,43 +1055,131 @@
           "isExpanded": "false",
           "questions": [
             {
-              "label": "Nucleoside Reverse Transcriptase Inhibitors (NRTIS)",
+              "label": "Antiretroviral drugs used",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
-                "concept": "54e7ff9b-4d93-41ba-ad0b-cb5f565785f2",
-                "answers": [
-                  {
-                    "concept": "5424AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Other antiretroviral drug",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "86663AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Zidovudine",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "84796AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Tenofovir",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "78643AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Lamivudine",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "75628AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Emtricitabine",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "70056AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Abacavir",
-                    "conceptMappings": []
-                  }
-                ]
+                "concept": "1085AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                  "answers": [
+                    {
+                      "concept": "70056AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Abacavir",
+                      "conceptMappings": []
+                    },
+                    {
+                      "concept": "71647AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Atazanavir",
+                      "conceptMappings": []
+                    },
+                    {
+                      "concept": "74258AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Darunavir",
+                      "conceptMappings": []
+                    },
+                    {
+                      "concept": "165085AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Dolutegravir",
+                      "conceptMappings": []
+                    },
+                    {
+                      "concept": "75523AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Efavirenz",
+                      "conceptMappings": []
+                    },
+                    {
+                      "concept": "75628AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Emtricitabine",
+                      "conceptMappings": []
+                    },
+                    {
+                      "concept": "75676AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Enfuvirtide",
+                      "conceptMappings": []
+                    },
+                    {
+                      "concept": "159810AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Etravirine",
+                      "conceptMappings": []
+                    },
+                    {
+                      "concept": "76658AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Fosamprenavir",
+                      "conceptMappings": []
+                    },
+                    {
+                      "concept": "78643AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Lamivudine",
+                      "conceptMappings": []
+                    },
+                    {
+                      "concept": "154376AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Maraviroc",
+                      "conceptMappings": []
+                    },
+                    {
+                      "concept": "80586AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Nevirapine",
+                      "conceptMappings": []
+                    },
+                    {
+                      "concept": "5424AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Other antiretroviral drug",
+                      "conceptMappings": []
+                    },
+                    {
+                      "concept": "154378AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Raltegravir",
+                      "conceptMappings": []
+                    },
+                    {
+                      "concept": "83412AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Ritonavir",
+                      "conceptMappings": []
+                    },
+                    {
+                      "concept": "83690AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Saquinavir",
+                      "conceptMappings": []
+                    },
+                    {
+                      "concept": "84796AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Tenofovir",
+                      "conceptMappings": []
+                    },
+                    {
+                      "concept": "85160AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Tipranavir",
+                      "conceptMappings": []
+                    },
+                    {
+                      "concept": "1067AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Unknown",
+                      "conceptMappings": [
+                        {
+                          "type": "CIEL",
+                          "value": "1067"
+                        },
+                        {
+                          "type": "AMPATH",
+                          "value": "1067"
+                        },
+                        {
+                          "type": "SNOMED CT",
+                          "value": "CT: 261665006"
+                        },
+                        {
+                          "type": "PIH",
+                          "value": "1067"
+                        }
+                      ]
+                    },
+                    {
+                      "concept": "86663AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                      "label": "Zidovudine",
+                      "conceptMappings": []
+                    }
+                  ]
+                
               },
               "behaviours": [
                 {
@@ -1364,192 +1192,7 @@
                   }
                 }
               ],
-              "id": "nrtisDrugsUsed"
-            },
-            {
-              "label": "Non-Nucleoside Reverse Transcriptase Inhibitors (NNRTIS)",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "9064043b-5b18-4228-97ff-f0e20aaf9448",
-                "answers": [
-                  {
-                    "concept": "159810AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Etravirine",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "80586AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Nevirapine",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "75523AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Efavirenz",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "1067AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Unknown",
-                    "conceptMappings": [
-                      {
-                        "type": "CIEL",
-                        "value": "1067"
-                      },
-                      {
-                        "type": "AMPATH",
-                        "value": "1067"
-                      },
-                      {
-                        "type": "SNOMED CT",
-                        "value": "CT: 261665006"
-                      },
-                      {
-                        "type": "PIH",
-                        "value": "1067"
-                      }
-                    ]
-                  },
-                  {
-                    "concept": "5424AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Other antiretroviral drug",
-                    "conceptMappings": []
-                  }
-                ]
-              },
-              "behaviours": [
-                {
-                  "intent": "*",
-                  "required": "true",
-                  "unspecified": "true",
-                  "hide": {
-                    "hideWhenExpression": "false"
-                  },
-                  "validators": []
-                }
-              ],
-              "id": "nnrtisDrugsUsed"
-            },
-            {
-              "label": "Protease Inhibitors (PIS)",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "77eed025-0f5c-4173-bf45-36e05a175aaf",
-                "answers": [
-                  {
-                    "concept": "85160AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Tipranavir",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "83690AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Saquinavir",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "83412AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Ritonavir",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "76658AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Fosamprenavir",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "74258AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Darunavir",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "71647AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Atazanavir",
-                    "conceptMappings": []
-                  }
-                ]
-              },
-              "behaviours": [
-                {
-                  "intent": "*",
-                  "required": "true",
-                  "unspecified": "true",
-                  "hide": {
-                    "hideWhenExpression": "false"
-                  },
-                  "validators": []
-                }
-              ],
-              "id": "proteaseInhibitors"
-            },
-            {
-              "label": "Other HIV Drug Classes",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "1193AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "answers": [
-                  {
-                    "concept": "154378AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Raltegravir",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "165085AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Dolutegravir",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "154376AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "maraviroc",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "75676AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Enfuvirtide",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "5424AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Other antiretroviral drug",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "1067AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Unknown",
-                    "conceptMappings": [
-                      {
-                        "type": "CIEL",
-                        "value": "1067"
-                      },
-                      {
-                        "type": "AMPATH",
-                        "value": "1067"
-                      },
-                      {
-                        "type": "SNOMED CT",
-                        "value": "CT: 261665006"
-                      },
-                      {
-                        "type": "PIH",
-                        "value": "1067"
-                      }
-                    ]
-                  }
-                ]
-              },
-              "behaviours": [
-                {
-                  "intent": "*",
-                  "required": "true",
-                  "unspecified": "true",
-                  "hide": {
-                    "hideWhenExpression": "false"
-                  },
-                  "validators": []
-                }
-              ],
-              "id": "otherArvDrugClasses"
+              "id": "artDrugsUsed"
             }
           ],
           "behaviours": [

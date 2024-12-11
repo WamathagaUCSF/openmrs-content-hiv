@@ -97,7 +97,7 @@
                   },
                   {
                     "concept": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Other non-coded",
+                    "label": "Other",
                     "conceptMappings": [
                       {
                         "type": "PIH-Malawi",
@@ -151,18 +151,8 @@
                   }
                 ]
               },
-              "id": "contactMethod",
-              "behaviours": [
-                {
-                  "intent": "*",
-                  "required": "true",
-                  "unspecified": "true",
-                  "hide": {
-                    "hideWhenExpression": "false"
-                  },
-                  "validators": []
-                }
-              ]
+              "historicalExpression": "(HD.getObject(prevEnc).getValue('166456AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'))",
+              "id": "contactMethod"
             }
           ]
         },
@@ -294,17 +284,9 @@
                 ]
               },
               "id": "patientContacted",
-              "behaviours": [
-                {
-                  "intent": "*",
-                  "required": "true",
-                  "unspecified": "true",
-                  "hide": {
-                    "hideWhenExpression": "false"
-                  },
-                  "validators": []
-                }
-              ]
+              "hide": {
+                "hideWhenExpression": "isEmpty(contactMethod)"
+              }
             },
             {
               "label": "Outcome",
@@ -344,18 +326,10 @@
                   }
                 ]
               },
-              "hide": {
-                "hideWhenExpression": "!includes('patientContacted','1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
-              },
               "id": "outcomePatient",
-              "behaviours": [
-                {
-                  "intent": "*",
-                  "required": "true",
-                  "unspecified": "true",
-                  "validators": []
-                }
-              ]
+              "hide": {
+                "hideWhenExpression": "!includes(patientContacted, '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             }
           ]
         },
@@ -487,17 +461,9 @@
                 ]
               },
               "hide": {
-                "hideWhenExpression": "!includes('outcomePatient','159381AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+                "hideWhenExpression": "outcomePatient !== '159381AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
               },
-              "id": "contactBooked",
-              "behaviours": [
-                {
-                  "intent": "*",
-                  "required": "true",
-                  "unspecified": "true",
-                  "validators": []
-                }
-              ]
+              "id": "contactBooked"
             },
             {
               "label": "Date booked for HIV test",
@@ -507,27 +473,20 @@
                 "concept": "160753AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "weeksList": ""
               },
-              "hide": {
-                "hideWhenExpression": "!includes('outcomePatient','159381AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
-              },
               "id": "dateBooked",
-              "behaviours": [
+              "validators": [
                 {
-                  "intent": "*",
-                  "required": "true",
-                  "unspecified": "true",
-                  "validators": [
-                    {
-                      "type": "date",
-                      "allowFutureDates": "false"
-                    },
-                    {
-                      "type": "js_expression",
-                      "failsWhenExpression": "myValue <= useFieldValue('contactDate')"
-                    }
-                  ]
+                  "type": "date",
+                  "allowFutureDates": "false"
+                },
+                {
+                  "type": "js_expression",
+                  "failsWhenExpression": "myValue <= useFieldValue(contactDate)"
                 }
-              ]
+              ],
+              "hide": {
+                "hideWhenExpression": "contactBooked !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
+              }
             },
             {
               "label": "Contact Tested for HIV",
@@ -658,18 +617,10 @@
                   }
                 ]
               },
-              "hide": {
-                "hideWhenExpression": "!includes('outcomePatient','164167AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
-              },
               "id": "contactHIVTesting",
-              "behaviours": [
-                {
-                  "intent": "*",
-                  "required": "true",
-                  "unspecified": "true",
-                  "validators": []
-                }
-              ]
+              "hide": {
+                "hideWhenExpression": "contactBooked !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
+              }
             },
             {
               "label": "Contact HIV Status",
@@ -850,31 +801,12 @@
                   }
                 ]
               },
-              "hide": {
-                "hideWhenExpression": "!includes('outcomePatient','164167AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
-              },
-              "id": "contactHIVStatus",
-              "behaviours": [
-                {
-                  "intent": "*",
-                  "required": "true",
-                  "unspecified": "true",
-                  "validators": []
-                }
-              ]
+              "id": "contactHIVStatus"
             }
           ],
-          "behaviours": [
-            {
-              "intent": "*",
-              "required": "false",
-              "unspecified": "false",
-              "hide": {
-                "hideWhenExpression": "!includes('outcomePatient','159381AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA') || outcomePatient !== '164167AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' "
-              },
-              "validators": []
-            }
-          ]
+          "hide": {
+            "hideWhenExpression": "!arrayContains(['159381AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA','164167AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'],outcomePatient)"
+          }
         }
       ]
     },
@@ -970,18 +902,7 @@
                   }
                 ]
               },
-              "id": "finalOutcomeReached",
-              "behaviours": [
-                {
-                  "intent": "*",
-                  "required": "true",
-                  "unspecified": "true",
-                  "hide": {
-                    "hideWhenExpression": "false"
-                  },
-                  "validators": []
-                }
-              ]
+              "id": "finalOutcomeReached"
             },
             {
               "label": "Final outcome contact tracking",
@@ -1042,17 +963,9 @@
                 ]
               },
               "id": "finalContactOutcome",
-              "behaviours": [
-                {
-                  "intent": "*",
-                  "required": "true",
-                  "unspecified": "true",
-                  "hide": {
-                    "hideWhenExpression": "!includes('finalOutcomeReached','1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
-                  },
-                  "validators": []
-                }
-              ]
+              "hide": {
+                "hideWhenExpression": "!includes(finalOutcomeReached,'1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')"
+              }
             }
           ]
         }
@@ -1070,7 +983,7 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "textarea",
-                "concept": "165095AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "concept": "162169AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "rows": "",
                 "conceptMappings": [
                   {
@@ -1084,12 +997,6 @@
           ]
         }
       ]
-    }
-  ],
-  "availableIntents": [
-    {
-      "intent": "*",
-      "display": "Contact Tracing Form"
     }
   ],
   "processor": "EncounterFormProcessor",
